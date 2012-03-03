@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# $FreeBSD: ports/devel/jenkins/files/jenkins.in,v 1.2 2011/04/29 11:57:53 kuriyama Exp $
+# $FreeBSD: ports/devel/jenkins/files/jenkins.in,v 1.3 2012/01/14 08:55:34 dougb Exp $
 #
 # PROVIDE: jenkins
 # REQUIRE: LOGIN
@@ -44,7 +44,7 @@
 . /etc/rc.subr
 
 name="jenkins"
-rcvar=`set_rcvar`
+rcvar=jenkins_enable
 
 load_rc_config "${name}"
 

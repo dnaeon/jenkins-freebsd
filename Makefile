@@ -2,11 +2,11 @@
 # Date created:		2011-03-03
 # Whom:			Li-Wen Hsu <lwhsu@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/jenkins/Makefile,v 1.14 2011/12/13 14:06:36 lwhsu Exp $
+# $FreeBSD: ports/devel/jenkins/Makefile,v 1.16 2012/02/09 06:11:56 lwhsu Exp $
 #
 
 PORTNAME=	jenkins
-PORTVERSION=	1.447
+PORTVERSION=	1.452
 CATEGORIES=	devel java
 MASTER_SITES=	http://mirrors.jenkins-ci.org/war/${PORTVERSION}/
 DISTNAME=	jenkins
